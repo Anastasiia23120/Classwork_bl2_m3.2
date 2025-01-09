@@ -52,5 +52,55 @@
  * task 4
  */
 
-logItems(['Mango', 'Poly', 'Ajax']);
-logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
+// const logItems = function (items) {
+//   console.log(items);
+//   for (let i = 0; i < items.length; i++) {
+//     console.log(`${i + 1} - ${items[i]}`);
+//   }
+// };
+
+// logItems(['Mango', 'Poly', 'Ajax']);
+// logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
+
+/*
+ * task 5
+ */
+
+// const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL'];
+// console.log(courses);
+
+// const addCourse = function (courseName) {
+//   if (courses.includes(courseName)) {
+//     console.log(`У вас вже є курс ${courseName}!`);
+//   } else {
+//     courses.push(courseName);
+//   }
+// };
+
+// const removeCourse = function (courseName) {
+//   const idxOfCourse = courses.indexOf(courseName);
+
+//   if (idxOfCourse === -1) {
+//     return console.log(`Курс ${courseName} не знайдено!`);
+//   }
+//   courses.splice(idxOfCourse, 1);
+// };
+
+// const updateCourse = function (oldCourseName, newCourseName) {
+//   const indexOfCourse = courses.indexOf(oldCourseName);
+
+//   courses.splice(indexOfCourse, 1, newCourseName);
+//   //   courses.splice(indexOfCourse, 0, newCourseName);
+// };
+
+// addCourse('Express');
+// console.log(courses);
+// addCourse('CSS');
+
+// removeCourse('React');
+// console.log(courses);
+// removeCourse('React');
+// console.log(courses);
+
+// updateCourse('HTML', 'NestJS');
+// console.log(courses);
